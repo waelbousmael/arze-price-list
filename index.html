@@ -1,1 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arzé — Treatments</title>
+  <meta name="description" content="Arzé treatments price list — QR landing." />
 
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <main class="app" aria-label="Arzé price list landing">
+
+    <!-- HEADER (shared) -->
+    <header class="brand">
+      <!-- Logo placeholder: you upload your real logo later to assets/logo.png -->
+      <div class="logoWrap">
+        <img class="logo" src="./assets/logo.png" alt="Arzé Logo" />
+      </div>
+
+      <h1 class="title">Arzé Treatments</h1>
+      <p class="subtitle">Curated rituals for refined care.</p>
+    </header>
+
+    <!-- VIEW A: Category Select -->
+    <section id="view-categories" class="view view--active" aria-label="Choose category">
+      <div id="categoryGrid" class="categoryGrid"></div>
+      <p class="hint">Tap a category to view services.</p>
+    </section>
+
+    <!-- VIEW B: Category Details -->
+    <section id="view-category" class="view" aria-label="Category details">
+      <div class="topBar">
+        <button id="backBtn" class="backBtn" type="button" aria-label="Back">
+          <span class="backIcon" aria-hidden="true">←</span>
+          <span class="backText">Back</span>
+        </button>
+
+        <!-- Small logo on category view -->
+        <img class="logoSm" src="./assets/logo.png" alt="Arzé Logo" />
+      </div>
+
+      <header class="catHeader">
+        <p id="catTagline" class="catTagline"></p>
+        <h2 id="catTitle" class="catTitle"></h2>
+        <p id="catIntro" class="catIntro"></p>
+      </header>
+
+      <div id="serviceList" class="serviceList"></div>
+
+      <div class="ctaBlock">
+        <a id="whatsAppBtn" class="ctaBtn" href="#" target="_blank" rel="noopener">
+          Contact Arzé
+        </a>
+        <p class="ctaNote">WhatsApp opens instantly.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
