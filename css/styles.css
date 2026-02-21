@@ -36,14 +36,14 @@ body{
 /* Brand header */
 .brand{
   text-align:center;
-  padding-top: 10px;
-  padding-bottom: 16px;
+  padding-top: 14px;
+  padding-bottom: 20px;
 }
 
 .logoWrap{
   display:flex;
   justify-content:center;
-  padding: 6px 0 16px;
+  padding: 8px 0 18px;
 }
 
 .logo{
@@ -56,16 +56,10 @@ body{
 .title{
   font-family: "Playfair Display", serif;
   font-weight: 500;
-  font-size: 34px;
-  letter-spacing: .2px;
-  margin: 0 0 8px;
-}
-
-.subtitle{
+  font-size: 33px;
+  letter-spacing: .24px;
   margin: 0;
-  color: var(--muted);
-  font-size: 15px;
-  line-height: 1.35;
+  text-align: center;
 }
 
 /* Views */
@@ -135,11 +129,42 @@ body{
   max-width: 34ch;
 }
 
-.hint{
-  margin: 18px 4px 0;
-  text-align:center;
+.landingInfo{
+  margin: 24px 8px 0;
+  text-align: center;
+}
+
+.landingInfoLine{
+  margin: 0;
   color: var(--muted2);
-  font-size: 12.5px;
+  font-size: 13px;
+  line-height: 1.62;
+}
+
+.landingInfoStrong{
+  font-weight: 600;
+  color: rgba(31,31,31,.72);
+}
+
+.callBtn{
+  margin: 16px auto 0;
+  width: fit-content;
+  min-width: 170px;
+  text-align: center;
+  display: block;
+  padding: 11px 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(107,117,98,.7);
+  background: transparent;
+  color: var(--olive);
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: .15px;
+  transition: background-color .15s ease, border-color .15s ease;
+}
+
+.callBtn:active{
+  background: rgba(107,117,98,.08);
 }
 
 /* Category view back button */
