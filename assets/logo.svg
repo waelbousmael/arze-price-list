@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="120" viewBox="0 0 360 120" role="img" aria-labelledby="title desc">
+  <title id="title">Arzé logo</title>
+  <desc id="desc">Arzé wordmark on transparent background</desc>
+  <style>
+    .mark { font: 700 64px 'Times New Roman', Georgia, serif; fill: #1f1f1f; }
+  </style>
+  <text x="50%" y="72" text-anchor="middle" class="mark">Arzé</text>
+</svg>

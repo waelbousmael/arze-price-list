@@ -14,7 +14,7 @@
     viewCategories.classList.remove("view--active");
     viewCategory.classList.remove("view--active");
     view.classList.add("view--active");
-    window.scrollTo({ top: 0, behavior: "instant" });
+    window.scrollTo({ top: 0, behavior: "auto" });
   }
 
   function formatPrice(value, currency) {
@@ -95,11 +95,32 @@
 
   backBtn.addEventListener("click", () => show(viewCategories));
 
-  // Load menu data
-  const res = await fetch("./data/menu.json", { cache: "no-store" });
-  const data = await res.json();
+  async function loadMenuData() {
+    const menuUrl = new URL("./data/menu.json", window.location.href);
+    const res = await fetch(menuUrl, { cache: "no-store" });
+    if (!res.ok) {
+      throw new Error(`Failed to load menu data: ${res.status} ${res.statusText}`);
+    }
+    return res.json();
+  }
 
-  // Render initial
-  renderCategories(data);
+  function renderLoadError(error) {
+    categoryGrid.innerHTML = `
+      <article class="serviceCard" role="status" aria-live="polite">
+        <h3 class="serviceName">We couldn't load the categories.</h3>
+        <p class="serviceDesc">Please open this page through your website URL (not directly from device files), then try again.</p>
+        <p class="serviceDesc">Technical details: ${error.message}</p>
+      </article>
+    `;
+  }
+
+  try {
+    const data = await loadMenuData();
+    renderCategories(data);
+  } catch (error) {
+    console.error(error);
+    renderLoadError(error);
+  }
+
   show(viewCategories);
 })();
