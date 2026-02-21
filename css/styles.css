@@ -160,6 +160,23 @@ body{
   color: rgba(31,31,31,.72);
 }
 
+.landingInfoLink{
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+}
+
+.landingInfoLink:hover .landingInfoStrong,
+.landingInfoLink:focus-visible .landingInfoStrong{
+  text-decoration: underline;
+}
+
+.landingInfoPin{
+  font-size: 12px;
+  line-height: 1;
+}
+
 .callBtn{
   margin: 16px auto 0;
   width: fit-content;
