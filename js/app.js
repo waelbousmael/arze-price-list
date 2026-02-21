@@ -57,6 +57,12 @@
     c.services.forEach((s) => {
       const card = document.createElement("article");
       card.className = "serviceCard";
+      card.style.setProperty("--service-image", `url('${s.image || c.image || "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80"}')`);
+
+      const detailsId = `service-details-${categoryId}-${s.name
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/(^-|-$)/g, "")}`;
 
       const badges = [];
       if (s.note) badges.push(s.note);
@@ -70,16 +76,31 @@
           </div>
         </div>
 
-        <p class="serviceDesc">${s.description || ""}</p>
+        <button type="button" class="serviceToggle" aria-expanded="false" aria-controls="${detailsId}">
+          View description
+        </button>
 
-        ${
-          badges.length
-            ? `<div class="badgeRow">${badges
-                .map((b) => `<span class="badge">${b}</span>`)
-                .join("")}</div>`
-            : ""
-        }
+        <div id="${detailsId}" class="serviceDetails" hidden>
+          <p class="serviceDesc">${s.description || ""}</p>
+
+          ${
+            badges.length
+              ? `<div class="badgeRow">${badges
+                  .map((b) => `<span class="badge">${b}</span>`)
+                  .join("")}</div>`
+              : ""
+          }
+        </div>
       `;
+
+      const toggleBtn = card.querySelector(".serviceToggle");
+      const details = card.querySelector(".serviceDetails");
+      toggleBtn.addEventListener("click", () => {
+        const isOpen = toggleBtn.getAttribute("aria-expanded") === "true";
+        toggleBtn.setAttribute("aria-expanded", String(!isOpen));
+        toggleBtn.textContent = isOpen ? "View description" : "Hide description";
+        details.hidden = isOpen;
+      });
 
       serviceList.appendChild(card);
     });
