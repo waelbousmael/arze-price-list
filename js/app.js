@@ -23,6 +23,12 @@
     return `${n} ${currency}`;
   }
 
+  function getCategoryBgKey(category) {
+    if (category.id === "nails") return "nails";
+    if (category.id === "massage") return "massage";
+    return "brows";
+  }
+
   function renderCategories(data) {
     categoryGrid.innerHTML = "";
 
@@ -30,13 +36,13 @@
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "card";
+      btn.dataset.bg = getCategoryBgKey(c);
 
       btn.innerHTML = `
         <div>
           <h3 class="cardTitle">${c.name}</h3>
           <p class="cardDesc">${c.tagline || ""}</p>
         </div>
-        <div class="arrow" aria-hidden="true">›</div>
       `;
 
       btn.addEventListener("click", () => renderCategory(data, c.id));
@@ -105,7 +111,6 @@
       serviceList.appendChild(card);
     });
 
-    // WhatsApp CTA
     const wa =
       (data.contact && data.contact.whatsapp) ||
       "https://wa.me/966598256743";
