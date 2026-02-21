@@ -37,7 +37,7 @@ body{
 .brand{
   text-align:center;
   padding-top: 14px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .logoWrap{
@@ -71,7 +71,15 @@ body{
   display:flex;
   flex-direction: column;
   gap: 14px;
-  margin-top: 10px;
+  margin-top: 4px;
+}
+
+.titleSubline{
+  margin: 0 0 12px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.4;
 }
 
 .card{
