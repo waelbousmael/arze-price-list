@@ -129,6 +129,12 @@ body{
   text-decoration: none;
 }
 
+
+.cardDesc:empty,
+.catTagline:empty,
+.catIntro:empty{
+  display: none;
+}
 .cardDesc{
   margin: 0;
   color: rgba(247,242,233,.94);

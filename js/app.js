@@ -41,7 +41,6 @@
       btn.innerHTML = `
         <div>
           <h3 class="cardTitle">${c.name}</h3>
-          <p class="cardDesc">${c.tagline || ""}</p>
         </div>
       `;
 
@@ -54,9 +53,9 @@
     const c = data.categories.find((x) => x.id === categoryId);
     if (!c) return;
 
-    catTagline.textContent = c.tagline || "";
+    catTagline.textContent = "";
     catTitle.textContent = c.name || "";
-    catIntro.textContent = c.intro || "";
+    catIntro.textContent = "";
 
     serviceList.innerHTML = "";
 
