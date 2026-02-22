@@ -179,23 +179,7 @@ body{
 
 .callBtn{
   margin: 16px auto 0;
-  width: fit-content;
-  min-width: 170px;
-  text-align: center;
-  display: block;
-  padding: 11px 16px;
-  border-radius: 14px;
-  border: 1px solid rgba(107,117,98,.7);
-  background: transparent;
-  color: var(--olive);
-  text-decoration: none;
-  font-weight: 500;
-  letter-spacing: .15px;
-  transition: background-color .15s ease, border-color .15s ease;
-}
-
-.callBtn:active{
-  background: rgba(107,117,98,.08);
+  display: inline-flex;
 }
 
 /* Category view back button */
@@ -377,7 +361,7 @@ body{
   gap: 10px;
   padding: 14px 16px;
   border-radius: 16px;
-  background: linear-gradient(145deg, #5f6f57, #9eaf90 70%, #cdd9c2);
+  background: var(--olive);
   color: #fff;
   text-decoration: none;
   font-weight: 600;
