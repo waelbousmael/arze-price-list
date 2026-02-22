@@ -399,3 +399,47 @@ a:focus-visible{
   outline-offset: 2px;
 }
 img{ user-select:none; }
+
+.socialFooter{
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  text-align: center;
+}
+
+.socialFooterTitle{
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: var(--muted);
+  letter-spacing: .2px;
+}
+
+.socialFooterLink{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.socialFooterIcon{
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 28% 108%, #fdf497 0%, #fdf497 8%, #fd5949 46%, #d6249f 67%, #285AEB 100%);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, .16);
+}
+
+.socialFooterIcon svg{
+  width: 19px;
+  height: 19px;
+  fill: #fff;
+}
+
+.socialFooterUsername{
+  font-weight: 600;
+  font-size: 14px;
+}
