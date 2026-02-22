@@ -371,24 +371,44 @@ body{
 .ctaBtn{
   width: 100%;
   max-width: 420px;
-  text-align:center;
-  display:inline-block;
+  display:inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   padding: 14px 16px;
   border-radius: 16px;
-  background: var(--olive);
+  background: linear-gradient(145deg, #5f6f57, #9eaf90 70%, #cdd9c2);
   color: #fff;
   text-decoration: none;
   font-weight: 600;
   letter-spacing: .2px;
+  box-shadow:
+    0 10px 26px rgba(56,66,49,.22),
+    inset 0 1px 0 rgba(255,255,255,.34);
 }
 
 .ctaBtn:hover{ filter: brightness(.98); }
 .ctaBtn:active{ transform: scale(.995); }
 
-.ctaNote{
-  margin: 0;
-  font-size: 12px;
-  color: var(--muted2);
+.ctaBtnLabel{
+  line-height: 1;
+}
+
+.ctaBtnIcon{
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.44), rgba(255,255,255,.08));
+  border: 1px solid rgba(255,255,255,.48);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.5);
+}
+
+.ctaBtnIcon svg{
+  width: 15px;
+  height: 15px;
+  fill: #fff;
 }
 
 /* Accessibility / small refinements */
