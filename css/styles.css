@@ -414,10 +414,24 @@ img{ user-select:none; }
   letter-spacing: .2px;
 }
 
+.socialFooterLinks{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 .socialFooterLink{
   display: inline-flex;
   align-items: center;
   gap: 10px;
+  min-width: 180px;
+  justify-content: center;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.42);
+  box-shadow: 0 4px 16px rgba(0,0,0,.06);
   text-decoration: none;
   color: var(--text);
 }
