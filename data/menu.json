@@ -16,7 +16,6 @@
         { "name": "Russian Manicure", "description": "Advanced dry cuticle detailing for an ultra-precise, seamless nail contour.", "duration_min": 60, "price": 120 },
         { "name": "Russian Pedicure", "description": "Precision cuticle and callus refinement delivering a clean, sculpted finish.", "duration_min": 75, "price": 190 },
         { "name": "Gel Color Finish", "description": "Long-lasting gel application finished with a high-gloss, mirror-like surface.", "duration_min": 30, "price": 60 },
-        { "name": "Express Polish", "description": "A quick color refresh for a neat, understated appearance.", "duration_min": 15, "price": 20 },
         { "name": "Softgel Structure", "description": "Lightweight softgel enhancement providing strength, flexibility, and natural elegance.", "duration_min": 90, "price": 250 },
         { "name": "Refill Maintenance", "description": "Growth-area correction and structural balancing to maintain flawless alignment.", "duration_min": 75, "price": 199 },
         { "name": "Gel Extension", "description": "Customized sculpted extensions designed for proportion, strength, and refined length.", "duration_min": 120, "price": 350 },
