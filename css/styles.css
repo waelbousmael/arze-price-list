@@ -241,6 +241,7 @@ body{
 .serviceList{
   display:flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
   padding: 6px 0 14px;
 }
@@ -260,6 +261,8 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   border: 1px solid rgba(255,255,255,.24);
+  width: min(100%, 460px);
+  margin-inline: auto;
   padding: 14px;
   filter: saturate(.78) brightness(.92);
   transition: aspect-ratio .25s ease, min-height .25s ease, filter .2s ease;
@@ -287,6 +290,7 @@ body{
   margin: 0;
   color: #fff;
   text-align: center;
+  overflow-wrap: anywhere;
   text-shadow: 0 1px 2px rgba(0,0,0,.72);
 }
 
@@ -339,6 +343,7 @@ body{
   color: rgba(255,255,255,.84);
   font-size: 13px;
   line-height: 1.45;
+  overflow-wrap: anywhere;
 }
 
 /* Optional badge (per nail etc.) */
@@ -357,6 +362,20 @@ body{
   background: rgba(0,0,0,.25);
   padding: 5px 9px;
   border-radius: 999px;
+}
+
+@media (max-width: 420px){
+  .app{
+    padding-inline: 14px;
+  }
+
+  .serviceList{
+    gap: 12px;
+  }
+
+  .serviceCard{
+    width: 100%;
+  }
 }
 
 /* CTA */
