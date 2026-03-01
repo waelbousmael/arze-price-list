@@ -23,6 +23,16 @@
     return `${n} ${currency}`;
   }
 
+  function resolveImageUrl(path) {
+    if (!path) return "";
+
+    const trimmedPath = String(path).trim();
+    if (/^(https?:|data:|blob:)/i.test(trimmedPath)) return trimmedPath;
+
+    const normalizedPath = trimmedPath.replace(/^\/+/, "");
+    return new URL(normalizedPath, window.location.href).href;
+  }
+
   function getCategoryBgKey(category) {
     if (category.id === "nails") return "nails";
     if (category.id === "massage") return "massage";
@@ -62,7 +72,13 @@
     c.services.forEach((s) => {
       const card = document.createElement("article");
       card.className = "serviceCard";
-      card.style.setProperty("--service-image", `url('${s.image || c.image || "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80"}')`);
+      const imageUrl = resolveImageUrl(
+        s.image ||
+          c.image ||
+          "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80"
+      );
+
+      card.style.setProperty("--service-image", `url('${imageUrl}')`);
 
       const detailsId = `service-details-${categoryId}-${s.name
         .toLowerCase()
