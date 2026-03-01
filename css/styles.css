@@ -247,8 +247,8 @@ body{
 }
 
 .serviceCard{
-  --service-overlay-start: rgba(0,0,0,.56);
-  --service-overlay-end: rgba(0,0,0,.56);
+  --service-overlay-start: rgba(0,0,0,.66);
+  --service-overlay-end: rgba(0,0,0,.66);
   position: relative;
   overflow: hidden;
   border-radius: var(--r1);
@@ -264,7 +264,7 @@ body{
   width: min(100%, 460px);
   margin-inline: auto;
   padding: 14px;
-  filter: saturate(.78) brightness(.92);
+  filter: saturate(.72) brightness(.82);
   transition: aspect-ratio .25s ease, min-height .25s ease, filter .2s ease;
 }
 
