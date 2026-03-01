@@ -249,13 +249,23 @@ body{
   position: relative;
   overflow: hidden;
   border-radius: var(--r1);
+  aspect-ratio: 1200 / 450;
   background:
-    linear-gradient(rgba(0,0,0,.52), rgba(0,0,0,.52)),
+    linear-gradient(rgba(0,0,0,.62), rgba(0,0,0,.62)),
     var(--service-image);
   background-size: cover;
   background-position: center;
   border: 1px solid rgba(255,255,255,.24);
   padding: 14px;
+  filter: saturate(.55) brightness(.75) blur(.6px);
+  transition: filter .2s ease, background .2s ease;
+}
+
+.serviceCard.serviceCard--active{
+  background:
+    linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),
+    var(--service-image);
+  filter: saturate(1) brightness(1) blur(0);
 }
 
 .serviceTop{

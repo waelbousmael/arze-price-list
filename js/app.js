@@ -102,9 +102,30 @@
       const details = card.querySelector(".serviceDetails");
       toggleBtn.addEventListener("click", () => {
         const isOpen = toggleBtn.getAttribute("aria-expanded") === "true";
+
+        if (!isOpen) {
+          serviceList.querySelectorAll(".serviceCard").forEach((otherCard) => {
+            if (otherCard === card) return;
+            otherCard.classList.remove("serviceCard--active");
+
+            const otherToggle = otherCard.querySelector(".serviceToggle");
+            const otherDetails = otherCard.querySelector(".serviceDetails");
+
+            if (otherToggle) {
+              otherToggle.setAttribute("aria-expanded", "false");
+              otherToggle.textContent = "View description";
+            }
+
+            if (otherDetails) {
+              otherDetails.hidden = true;
+            }
+          });
+        }
+
         toggleBtn.setAttribute("aria-expanded", String(!isOpen));
         toggleBtn.textContent = isOpen ? "View description" : "Hide description";
         details.hidden = isOpen;
+        card.classList.toggle("serviceCard--active", !isOpen);
       });
 
       serviceList.appendChild(card);
