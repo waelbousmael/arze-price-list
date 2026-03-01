@@ -246,28 +246,30 @@ body{
 }
 
 .serviceCard{
+  --service-overlay-start: rgba(0,0,0,.56);
+  --service-overlay-end: rgba(0,0,0,.56);
   position: relative;
   overflow: hidden;
   border-radius: var(--r1);
   aspect-ratio: 1200 / 230;
   min-height: 132px;
-  background:
-    linear-gradient(rgba(0,0,0,.56), rgba(0,0,0,.56)),
+  background-image:
+    linear-gradient(var(--service-overlay-start), var(--service-overlay-end)),
     var(--service-image);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   border: 1px solid rgba(255,255,255,.24);
   padding: 14px;
   filter: saturate(.78) brightness(.92);
-  transition: aspect-ratio .25s ease, min-height .25s ease, filter .2s ease, background .2s ease;
+  transition: aspect-ratio .25s ease, min-height .25s ease, filter .2s ease;
 }
 
 .serviceCard.serviceCard--active{
+  --service-overlay-start: rgba(0,0,0,.34);
+  --service-overlay-end: rgba(0,0,0,.34);
   aspect-ratio: 1200 / 450;
   min-height: 180px;
-  background:
-    linear-gradient(rgba(0,0,0,.34), rgba(0,0,0,.34)),
-    var(--service-image);
   filter: saturate(1) brightness(1) blur(0);
 }
 
