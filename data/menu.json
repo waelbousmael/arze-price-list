@@ -11,17 +11,84 @@
       "tagline": "Clean structure. Refined finish.",
       "intro": "A considered menu of nail rituals—disciplined technique, calm pacing, and an editorial finish.",
       "services": [
-        { "name": "Classic Manicure", "description": "Meticulous nail shaping, cuticle refinement, and a clean, balanced polish finish.", "duration_min": 45, "price": 90 },
-        { "name": "Classic Pedicure", "description": "Structured foot care with exfoliation, shaping, and a smooth, polished result.", "duration_min": 60, "price": 150 },
-        { "name": "Russian Manicure", "description": "Advanced dry cuticle detailing for an ultra-precise, seamless nail contour.", "duration_min": 60, "price": 120 },
-        { "name": "Russian Pedicure", "description": "Precision cuticle and callus refinement delivering a clean, sculpted finish.", "duration_min": 75, "price": 190 },
-        { "name": "Gel Color Finish", "description": "Long-lasting gel application finished with a high-gloss, mirror-like surface.", "duration_min": 30, "price": 60 },
-        { "name": "Softgel Structure", "description": "Lightweight softgel enhancement providing strength, flexibility, and natural elegance.", "duration_min": 90, "price": 250 },
-        { "name": "Refill Maintenance", "description": "Growth-area correction and structural balancing to maintain flawless alignment.", "duration_min": 75, "price": 199 },
-        { "name": "Gel Extension", "description": "Customized sculpted extensions designed for proportion, strength, and refined length.", "duration_min": 120, "price": 350 },
-        { "name": "Rubber Base Reinforcement", "description": "Flexible strengthening base layer enhancing durability and polish retention.", "duration_min": 60, "price": 150 },
-        { "name": "Signature Mani-Pedi Experience", "description": "A complete Arzé hand and foot ritual, concluded with a delicate cedar oil touch for a distinctive sensory signature.", "duration_min": 120, "price": 250 },
-        { "name": "Nail Art (Per Nail)", "description": "French, chrome, ombre, or cat-eye detailing executed with editorial precision; priced per nail.", "duration_min": 5, "price": 10, "note": "Per nail" }
+        {
+          "name": "Classic Manicure",
+          "description": "Meticulous nail shaping, cuticle refinement, and a clean, balanced polish finish.",
+          "duration_min": 45,
+          "price": 90,
+          "image": "/assets/images/nails/classic-manicure.jpg"
+        },
+        {
+          "name": "Classic Pedicure",
+          "description": "Structured foot care with exfoliation, shaping, and a smooth, polished result.",
+          "duration_min": 60,
+          "price": 150,
+          "image": "/assets/images/nails/classic-pedicure.jpg"
+        },
+        {
+          "name": "Russian Manicure",
+          "description": "Advanced dry cuticle detailing for an ultra-precise, seamless nail contour.",
+          "duration_min": 60,
+          "price": 120,
+          "image": "/assets/images/nails/russian-manicure.jpg"
+        },
+        {
+          "name": "Russian Pedicure",
+          "description": "Precision cuticle and callus refinement delivering a clean, sculpted finish.",
+          "duration_min": 75,
+          "price": 190,
+          "image": "/assets/images/nails/russian-pedicure.jpg"
+        },
+        {
+          "name": "Gel Color Finish",
+          "description": "Long-lasting gel application finished with a high-gloss, mirror-like surface.",
+          "duration_min": 30,
+          "price": 60,
+          "image": "/assets/images/nails/gel-color-finish.jpg"
+        },
+        {
+          "name": "Softgel Structure",
+          "description": "Lightweight softgel enhancement providing strength, flexibility, and natural elegance.",
+          "duration_min": 90,
+          "price": 250,
+          "image": "/assets/images/nails/softgel-structure.jpg"
+        },
+        {
+          "name": "Refill Maintenance",
+          "description": "Growth-area correction and structural balancing to maintain flawless alignment.",
+          "duration_min": 75,
+          "price": 199,
+          "image": "/assets/images/nails/refill-maintenance.jpg"
+        },
+        {
+          "name": "Gel Extension",
+          "description": "Customized sculpted extensions designed for proportion, strength, and refined length.",
+          "duration_min": 120,
+          "price": 350,
+          "image": "/assets/images/nails/gel-extension.jpg"
+        },
+        {
+          "name": "Rubber Base Reinforcement",
+          "description": "Flexible strengthening base layer enhancing durability and polish retention.",
+          "duration_min": 60,
+          "price": 150,
+          "image": "/assets/images/nails/rubber-base-reinforcement.jpg"
+        },
+        {
+          "name": "Signature Mani-Pedi Experience",
+          "description": "A complete Arzé hand and foot ritual, concluded with a delicate cedar oil touch for a distinctive sensory signature.",
+          "duration_min": 120,
+          "price": 250,
+          "image": "/assets/images/nails/signature-mani-pedi-experience.jpg"
+        },
+        {
+          "name": "Nail Art (Per Nail)",
+          "description": "French, chrome, ombre, or cat-eye detailing executed with editorial precision; priced per nail.",
+          "duration_min": 5,
+          "price": 10,
+          "note": "Per nail",
+          "image": "/assets/images/nails/nail-art.jpg"
+        }
       ]
     },
     {
@@ -30,10 +97,30 @@
       "tagline": "Slow rhythm. Quiet reset.",
       "intro": "Body rituals designed to soften tension and restore balance—minimal, controlled, and deeply calming.",
       "services": [
-        { "name": "Relaxing Massage", "description": "A slow, intentional full-body massage performed the Arzé way—controlled pressure, fluid transitions, and a quiet sensory reset.", "duration_min": 60, "price": 180 },
-        { "name": "White Wood Therapy with Cedar Oil", "description": "Arzé’s sculpting ritual combining structured white wood therapy and warm Lebanese cedar oil to stimulate circulation and refine body contour.", "duration_min": 60, "price": 200 },
-        { "name": "Hot Stone Ritual", "description": "Heated stones glide in deliberate rhythm to dissolve deeper tension, finished with a subtle cedar oil veil for grounding warmth.", "duration_min": 60, "price": 250 },
-        { "name": "Thai Energy Flow", "description": "Assisted stretching and rhythmic pressure work to realign posture, improve flexibility, and awaken natural energy pathways.", "duration_min": 60, "price": 350 }
+        {
+          "name": "Relaxing Massage",
+          "description": "A slow, intentional full-body massage performed the Arzé way—controlled pressure, fluid transitions, and a quiet sensory reset.",
+          "duration_min": 60,
+          "price": 180
+        },
+        {
+          "name": "White Wood Therapy with Cedar Oil",
+          "description": "Arzé’s sculpting ritual combining structured white wood therapy and warm Lebanese cedar oil to stimulate circulation and refine body contour.",
+          "duration_min": 60,
+          "price": 200
+        },
+        {
+          "name": "Hot Stone Ritual",
+          "description": "Heated stones glide in deliberate rhythm to dissolve deeper tension, finished with a subtle cedar oil veil for grounding warmth.",
+          "duration_min": 60,
+          "price": 250
+        },
+        {
+          "name": "Thai Energy Flow",
+          "description": "Assisted stretching and rhythmic pressure work to realign posture, improve flexibility, and awaken natural energy pathways.",
+          "duration_min": 60,
+          "price": 350
+        }
       ]
     },
     {
@@ -42,10 +129,30 @@
       "tagline": "Precision. Symmetry. Lift.",
       "intro": "Subtle, architectural refinement—clean lines, balanced shape, and effortless definition.",
       "services": [
-        { "name": "Brow Lamination", "description": "A controlled restructuring of the brow to create symmetry, lift, and a refined editorial finish.", "duration_min": 45, "price": 150 },
-        { "name": "Lash Lift", "description": "Precision lifting technique to enhance natural lashes with a soft, effortless curve.", "duration_min": 60, "price": 200 },
-        { "name": "Eye Refinement Package", "description": "A curated brow lamination and lash lift combination designed to frame the face with subtle harmony.", "duration_min": 90, "price": 230 },
-        { "name": "Precision Threading", "description": "Clean, defined brow shaping executed with controlled detailing for a polished appearance.", "duration_min": 20, "price": 80 }
+        {
+          "name": "Brow Lamination",
+          "description": "A controlled restructuring of the brow to create symmetry, lift, and a refined editorial finish.",
+          "duration_min": 45,
+          "price": 150
+        },
+        {
+          "name": "Lash Lift",
+          "description": "Precision lifting technique to enhance natural lashes with a soft, effortless curve.",
+          "duration_min": 60,
+          "price": 200
+        },
+        {
+          "name": "Eye Refinement Package",
+          "description": "A curated brow lamination and lash lift combination designed to frame the face with subtle harmony.",
+          "duration_min": 90,
+          "price": 230
+        },
+        {
+          "name": "Precision Threading",
+          "description": "Clean, defined brow shaping executed with controlled detailing for a polished appearance.",
+          "duration_min": 20,
+          "price": 80
+        }
       ]
     }
   ]
