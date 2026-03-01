@@ -247,8 +247,8 @@ body{
 }
 
 .serviceCard{
-  --service-overlay-start: rgba(0,0,0,.66);
-  --service-overlay-end: rgba(0,0,0,.66);
+  --service-overlay-start: rgba(107,117,98,.66);
+  --service-overlay-end: rgba(107,117,98,.66);
   position: relative;
   overflow: hidden;
   border-radius: var(--r1);
@@ -269,8 +269,8 @@ body{
 }
 
 .serviceCard.serviceCard--active{
-  --service-overlay-start: rgba(0,0,0,.34);
-  --service-overlay-end: rgba(0,0,0,.34);
+  --service-overlay-start: rgba(107,117,98,.34);
+  --service-overlay-end: rgba(107,117,98,.34);
   aspect-ratio: 1200 / 450;
   min-height: 180px;
   filter: saturate(1) brightness(1) blur(0);
