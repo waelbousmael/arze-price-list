@@ -101,25 +101,29 @@
           "name": "Relaxing Massage",
           "description": "A slow, intentional full-body massage performed the Arzé way—controlled pressure, fluid transitions, and a quiet sensory reset.",
           "duration_min": 60,
-          "price": 180
+          "price": 180,
+          "image": "/assets/images/massage/relaxing-massage.jpg"
         },
         {
           "name": "White Wood Therapy with Cedar Oil",
           "description": "Arzé’s sculpting ritual combining structured white wood therapy and warm Lebanese cedar oil to stimulate circulation and refine body contour.",
           "duration_min": 60,
-          "price": 200
+          "price": 200,
+          "image": "/assets/images/massage/white-wood-therapy-with-cedar-oil.jpg"
         },
         {
           "name": "Hot Stone Ritual",
           "description": "Heated stones glide in deliberate rhythm to dissolve deeper tension, finished with a subtle cedar oil veil for grounding warmth.",
           "duration_min": 60,
-          "price": 250
+          "price": 250,
+          "image": "/assets/images/massage/hot-stone-ritual.jpg"
         },
         {
           "name": "Thai Energy Flow",
           "description": "Assisted stretching and rhythmic pressure work to realign posture, improve flexibility, and awaken natural energy pathways.",
           "duration_min": 60,
-          "price": 350
+          "price": 350,
+          "image": "/assets/images/massage/thai-energy-flow.jpg"
         }
       ]
     },
