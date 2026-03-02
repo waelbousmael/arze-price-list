@@ -33,11 +33,50 @@ body{
   padding: 26px 18px 44px;
 }
 
+
+.langSwitch{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 12px;
+  border: 1px solid rgba(31,31,31,.14);
+  border-radius: 999px;
+  background: rgba(255,255,255,.56);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+}
+
+.langSwitchBtn{
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .35px;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  transition: color .15s ease;
+}
+
+.langSwitchBtn.is-active{
+  color: var(--text);
+}
+
+.langSwitchDivider{
+  color: rgba(31,31,31,.38);
+  font-size: 12px;
+}
+
 /* Brand header */
 .brand{
   text-align:center;
   padding-top: 14px;
   padding-bottom: 10px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap: 10px;
 }
 
 .logoWrap{
@@ -516,4 +555,22 @@ img{ user-select:none; }
   text-align: center;
   font-weight: 600;
   font-size: 14px;
+}
+
+
+html[dir="rtl"] body{
+  font-family: "Noto Naskh Arabic", Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+html[dir="rtl"] .backWrap,
+html[dir="rtl"] .serviceToggle,
+html[dir="rtl"] .titleSubline,
+html[dir="rtl"] .landingInfo,
+html[dir="rtl"] .catHeader,
+html[dir="rtl"] .socialFooter{
+  text-align: center;
+}
+
+html[dir="rtl"] .backIcon{
+  transform: scaleX(-1);
 }
