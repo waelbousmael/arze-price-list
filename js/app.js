@@ -161,12 +161,12 @@
       landingInfoPrefix: "أو تفضلي بزيارتنا في",
       landingInfoLocation: "نوفوتيل جدة التحلية",
       landingInfoSuffix: ".",
-      callBtnLabel: "اتصلي بأرزي",
-      callBtnAria: "اتصلي بأرزي",
+      callBtnLabel: "اتصلي بأرزة",
+      callBtnAria: "اتصلي بأرزة",
       backText: "رجوع",
       backAria: "رجوع",
-      contactBtnLabel: "تواصلي مع أرزي",
-      contactBtnAria: "تواصلي مع أرزي عبر واتساب",
+      contactBtnLabel: "تواصلي مع أرزة",
+      contactBtnAria: "تواصلي مع أرزة عبر واتساب",
       socialFooterTitle: "تابعينا",
       socialInstagram: "إنستغرام",
       socialTikTok: "تيك توك",
@@ -220,7 +220,7 @@
               description: "طبقة مرنة داعمة تعزز ثبات الطلاء وتحافظ على متانة الظفر."
             },
             "Signature Mani-Pedi Experience": {
-              name: "تجربة أرزي المميزة لليدين والقدمين",
+              name: "تجربة أرزة المميزة لليدين والقدمين",
               description: "طقس متكامل لليدين والقدمين يختتم بلمسة خفيفة من زيت الأرز."
             },
             "Nail Art (Per Nail)": {
@@ -238,7 +238,7 @@
           services: {
             "Relaxing Massage": {
               name: "مساج استرخائي",
-              description: "جلسة كاملة للجسم بأسلوب أرزي الخاص: ضغط متوازن، انتقالات ناعمة، واسترخاء عميق."
+              description: "جلسة كاملة للجسم بأسلوب أرزة الخاص: ضغط متوازن، انتقالات ناعمة، واسترخاء عميق."
             },
             "White Wood Therapy with Cedar Oil": {
               name: "علاج الخشب الأبيض بزيت الأرز",
