@@ -264,8 +264,7 @@ body{
   width: min(100%, 460px);
   margin-inline: auto;
   padding: 14px;
-  filter: saturate(.72) brightness(.82);
-  transition: aspect-ratio .25s ease, min-height .25s ease, filter .2s ease;
+  transition: aspect-ratio .25s ease, min-height .25s ease;
 }
 
 .serviceCard.serviceCard--active{
@@ -273,7 +272,6 @@ body{
   --service-overlay-end: rgba(107,117,98,.34);
   aspect-ratio: 1200 / 450;
   min-height: 180px;
-  filter: saturate(1) brightness(1) blur(0);
 }
 
 .serviceTop{
