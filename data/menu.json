@@ -137,25 +137,29 @@
           "name": "Brow Lamination",
           "description": "A controlled restructuring of the brow to create symmetry, lift, and a refined editorial finish.",
           "duration_min": 45,
-          "price": 150
+          "price": 150,
+          "image": "/assets/images/brows/brow-lamination.jpg"
         },
         {
           "name": "Lash Lift",
           "description": "Precision lifting technique to enhance natural lashes with a soft, effortless curve.",
           "duration_min": 60,
-          "price": 200
+          "price": 200,
+          "image": "/assets/images/brows/lash-lift.jpg"
         },
         {
           "name": "Eye Refinement Package",
           "description": "A curated brow lamination and lash lift combination designed to frame the face with subtle harmony.",
           "duration_min": 90,
-          "price": 230
+          "price": 230,
+          "image": "/assets/images/brows/eye-refinement-package.jpg"
         },
         {
           "name": "Precision Threading",
           "description": "Clean, defined brow shaping executed with controlled detailing for a polished appearance.",
           "duration_min": 20,
-          "price": 80
+          "price": 80,
+          "image": "/assets/images/brows/precision-threading.jpg"
         }
       ]
     }
