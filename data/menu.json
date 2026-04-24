@@ -100,7 +100,7 @@
         {
           "name": "Relaxing Massage",
           "description": "A slow, intentional full-body massage performed the Arzé way—controlled pressure, fluid transitions, and a quiet sensory reset.",
-          "duration_min": 60,
+          "duration_min": 40,
           "price": 180,
           "image": "/assets/images/massage/relaxing-massage.jpg"
         },
