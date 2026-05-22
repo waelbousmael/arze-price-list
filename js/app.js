@@ -2,6 +2,8 @@
   const STORAGE_KEY = "arze-lang";
   const DEFAULT_LANG = "en";
   const SUPPORTED_LANGS = ["en", "ar"];
+  const PHONE_NUMBER = "+966598256743";
+  const WHATSAPP_BASE_URL = "https://wa.me/966598256743";
 
   const I18N = {
     en: {
@@ -13,16 +15,55 @@
       landingInfoPrefix: "Or visit us at",
       landingInfoLocation: "Novotel Jeddah Tahlia",
       landingInfoSuffix: ".",
-      callBtnLabel: "Call Arzé",
-      callBtnAria: "Call Arzé",
       backText: "Back",
       backAria: "Back",
-      contactBtnLabel: "Contact Arzé",
-      contactBtnAria: "Contact Arzé on WhatsApp",
       socialFooterTitle: "Follow us",
       socialInstagram: "Instagram",
       socialTikTok: "TikTok",
       socialSnapchat: "Snapchat",
+      aboutEyebrow: "About Arzé Spa",
+      aboutTitle: "Premium home spa services in Jeddah",
+      aboutParagraphOne:
+        "Arzé Spa brings premium beauty and wellness rituals to your home across Jeddah, with appointment-based nail care, relaxing massage, brows and lashes designed for a calm, polished experience.",
+      aboutParagraphTwo:
+        "Our menu combines precise beauty work with spa rituals, from classic and Russian manicures to cedar-oil massage, brow lamination, lash lift and threading. Book by WhatsApp or phone, or visit us at Novotel Jeddah Tahlia.",
+      aboutKeywordNails: "Nails in Jeddah",
+      aboutKeywordMassage: "Home massage",
+      aboutKeywordBrows: "Brows and lashes",
+      stickyWhatsAppLabel: "WhatsApp",
+      stickyCallLabel: "Call",
+      stickyWhatsAppAria: "Book Arzé Spa on WhatsApp",
+      stickyCallAria: "Call Arzé Spa",
+      bookServiceLabel: "Book",
+      bookServiceAriaPrefix: "Book",
+      trustEyebrow: "What to expect",
+      trustTitle: "A calmer way to book beauty and spa care",
+      trustStepOneNumber: "01",
+      trustStepOneTitle: "Choose your ritual",
+      trustStepOneText: "Browse clear prices for nails, massage, brows and lashes before you contact us.",
+      trustStepTwoNumber: "02",
+      trustStepTwoTitle: "Book by WhatsApp or phone",
+      trustStepTwoText: "Send the selected service and price in one tap, or call Arzé directly.",
+      trustStepThreeNumber: "03",
+      trustStepThreeTitle: "Relax at home or visit us",
+      trustStepThreeText: "Enjoy appointment-based care at home across Jeddah or at Novotel Jeddah Tahlia.",
+      faqEyebrow: "Questions",
+      faqTitle: "Arzé Spa Jeddah FAQ",
+      faqOneQuestion: "Does Arzé Spa offer home spa services in Jeddah?",
+      faqOneAnswer:
+        "Yes. Arzé Spa offers appointment-based home spa and beauty services across Jeddah, including nails, massage, brows and lashes.",
+      faqTwoQuestion: "How can I book Arzé Spa?",
+      faqTwoAnswer:
+        "You can book Arzé Spa by WhatsApp or phone. Service booking links include the selected service and price to make booking easier.",
+      faqThreeQuestion: "Can I visit Arzé Spa at Novotel Jeddah Tahlia?",
+      faqThreeAnswer:
+        "Yes. In addition to home service in Jeddah, guests can visit Arzé Spa at Novotel Jeddah Tahlia by appointment.",
+      faqFourQuestion: "Which services are on the Arzé Spa price list?",
+      faqFourAnswer:
+        "The price list includes nail services, relaxing massage rituals, brows, lashes, threading, brow lamination and lash lift services.",
+      faqFiveQuestion: "Is delivery free for Arzé Spa home service in Jeddah?",
+      faqFiveAnswer:
+        "Delivery is free within central Jeddah. For farther areas in Jeddah, an additional 35 SAR delivery charge applies.",
       viewDescription: "View details",
       hideDescription: "Hide details",
       minutes: "min",
@@ -161,16 +202,55 @@
       landingInfoPrefix: "أو تفضلي بزيارتنا في",
       landingInfoLocation: "نوفوتيل جدة التحلية",
       landingInfoSuffix: ".",
-      callBtnLabel: "اتصلي بأرزة",
-      callBtnAria: "اتصلي بأرزة",
       backText: "رجوع",
       backAria: "رجوع",
-      contactBtnLabel: "تواصلي مع أرزة",
-      contactBtnAria: "تواصلي مع أرزة عبر واتساب",
       socialFooterTitle: "تابعينا",
       socialInstagram: "إنستغرام",
       socialTikTok: "تيك توك",
       socialSnapchat: "سناب شات",
+      aboutEyebrow: "عن أرزة سبا",
+      aboutTitle: "خدمات سبا منزلية راقية في جدة",
+      aboutParagraphOne:
+        "تقدم أرزة سبا تجربة عناية وجمال راقية تصل إلى منزلك في جدة، مع حجوزات بالمواعيد لخدمات الأظافر والمساج والحواجب والرموش بأسلوب هادئ ونتيجة مصقولة.",
+      aboutParagraphTwo:
+        "تجمع قائمتنا بين الدقة في خدمات الجمال وطقوس الاسترخاء، من المانيكير الكلاسيكي والروسي إلى مساج زيت الأرز ولامينيشن الحواجب ورفع الرموش والتنظيف بالخيط. يمكنك الحجز عبر واتساب أو الهاتف، أو زيارتنا في نوفوتيل جدة التحلية.",
+      aboutKeywordNails: "أظافر في جدة",
+      aboutKeywordMassage: "مساج منزلي",
+      aboutKeywordBrows: "حواجب ورموش",
+      stickyWhatsAppLabel: "واتساب",
+      stickyCallLabel: "اتصال",
+      stickyWhatsAppAria: "احجزي أرزة سبا عبر واتساب",
+      stickyCallAria: "اتصلي بأرزة سبا",
+      bookServiceLabel: "احجزي",
+      bookServiceAriaPrefix: "احجزي",
+      trustEyebrow: "ماذا تتوقعين",
+      trustTitle: "طريقة أهدأ لحجز العناية والجمال",
+      trustStepOneNumber: "01",
+      trustStepOneTitle: "اختاري الطقس المناسب",
+      trustStepOneText: "استعرضي أسعار الأظافر والمساج والحواجب والرموش بوضوح قبل التواصل معنا.",
+      trustStepTwoNumber: "02",
+      trustStepTwoTitle: "احجزي عبر واتساب أو الهاتف",
+      trustStepTwoText: "أرسلي اسم الخدمة والسعر بضغطة واحدة، أو اتصلي بأرزة مباشرة.",
+      trustStepThreeNumber: "03",
+      trustStepThreeTitle: "استرخي في المنزل أو زوري موقعنا",
+      trustStepThreeText: "استمتعي بعناية بالمواعيد في منزلك داخل جدة أو في نوفوتيل جدة التحلية.",
+      faqEyebrow: "أسئلة",
+      faqTitle: "أسئلة عن أرزة سبا جدة",
+      faqOneQuestion: "هل تقدم أرزة سبا خدمات سبا منزلية في جدة؟",
+      faqOneAnswer:
+        "نعم. تقدم أرزة سبا خدمات سبا وجمال منزلية بالمواعيد في جدة، وتشمل الأظافر والمساج والحواجب والرموش.",
+      faqTwoQuestion: "كيف يمكنني حجز أرزة سبا؟",
+      faqTwoAnswer:
+        "يمكنك الحجز عبر واتساب أو الهاتف. روابط حجز الخدمات ترسل اسم الخدمة المختارة والسعر لتسهيل الحجز.",
+      faqThreeQuestion: "هل يمكن زيارة أرزة سبا في نوفوتيل جدة التحلية؟",
+      faqThreeAnswer:
+        "نعم. إلى جانب الخدمة المنزلية في جدة، يمكن زيارة أرزة سبا في نوفوتيل جدة التحلية بالمواعيد.",
+      faqFourQuestion: "ما الخدمات الموجودة في قائمة أسعار أرزة سبا؟",
+      faqFourAnswer:
+        "تشمل قائمة الأسعار خدمات الأظافر، طقوس المساج والاسترخاء، الحواجب، الرموش، التنظيف بالخيط، لامينيشن الحواجب ورفع الرموش.",
+      faqFiveQuestion: "هل التوصيل مجاني لخدمة أرزة سبا المنزلية في جدة؟",
+      faqFiveAnswer:
+        "التوصيل مجاني داخل وسط جدة. للمناطق الأبعد داخل جدة تطبق رسوم توصيل إضافية بقيمة 35 ريال.",
       viewDescription: "عرض التفاصيل",
       hideDescription: "إخفاء التفاصيل",
       minutes: "دقيقة",
@@ -292,7 +372,6 @@
   const catTitle = document.getElementById("catTitle");
   const catIntro = document.getElementById("catIntro");
   const serviceList = document.getElementById("serviceList");
-  const whatsAppBtn = document.getElementById("whatsAppBtn");
 
   const translatableElements = {
     pageTitle: document.getElementById("pageTitle"),
@@ -301,13 +380,43 @@
     landingInfoPrefix: document.getElementById("landingInfoPrefix"),
     landingInfoLocation: document.getElementById("landingInfoLocation"),
     landingInfoSuffix: document.getElementById("landingInfoSuffix"),
-    callBtnLabel: document.getElementById("callBtnLabel"),
     backText: document.getElementById("backText"),
-    contactBtnLabel: document.getElementById("contactBtnLabel"),
     socialFooterTitle: document.getElementById("socialFooterTitle"),
     socialInstagram: document.getElementById("socialInstagram"),
     socialTikTok: document.getElementById("socialTikTok"),
-    socialSnapchat: document.getElementById("socialSnapchat")
+    socialSnapchat: document.getElementById("socialSnapchat"),
+    aboutEyebrow: document.getElementById("aboutEyebrow"),
+    aboutTitle: document.getElementById("aboutTitle"),
+    aboutParagraphOne: document.getElementById("aboutParagraphOne"),
+    aboutParagraphTwo: document.getElementById("aboutParagraphTwo"),
+    aboutKeywordNails: document.getElementById("aboutKeywordNails"),
+    aboutKeywordMassage: document.getElementById("aboutKeywordMassage"),
+    aboutKeywordBrows: document.getElementById("aboutKeywordBrows"),
+    stickyWhatsAppLabel: document.getElementById("stickyWhatsAppLabel"),
+    stickyCallLabel: document.getElementById("stickyCallLabel"),
+    trustEyebrow: document.getElementById("trustEyebrow"),
+    trustTitle: document.getElementById("trustTitle"),
+    trustStepOneNumber: document.getElementById("trustStepOneNumber"),
+    trustStepOneTitle: document.getElementById("trustStepOneTitle"),
+    trustStepOneText: document.getElementById("trustStepOneText"),
+    trustStepTwoNumber: document.getElementById("trustStepTwoNumber"),
+    trustStepTwoTitle: document.getElementById("trustStepTwoTitle"),
+    trustStepTwoText: document.getElementById("trustStepTwoText"),
+    trustStepThreeNumber: document.getElementById("trustStepThreeNumber"),
+    trustStepThreeTitle: document.getElementById("trustStepThreeTitle"),
+    trustStepThreeText: document.getElementById("trustStepThreeText"),
+    faqEyebrow: document.getElementById("faqEyebrow"),
+    faqTitle: document.getElementById("faqTitle"),
+    faqOneQuestion: document.getElementById("faqOneQuestion"),
+    faqOneAnswer: document.getElementById("faqOneAnswer"),
+    faqTwoQuestion: document.getElementById("faqTwoQuestion"),
+    faqTwoAnswer: document.getElementById("faqTwoAnswer"),
+    faqThreeQuestion: document.getElementById("faqThreeQuestion"),
+    faqThreeAnswer: document.getElementById("faqThreeAnswer"),
+    faqFourQuestion: document.getElementById("faqFourQuestion"),
+    faqFourAnswer: document.getElementById("faqFourAnswer"),
+    faqFiveQuestion: document.getElementById("faqFiveQuestion"),
+    faqFiveAnswer: document.getElementById("faqFiveAnswer")
   };
 
   let currentLang = resolveInitialLanguage();
@@ -325,13 +434,49 @@
     return I18N[currentLang][key] || I18N[DEFAULT_LANG][key] || "";
   }
 
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function buildWhatsAppUrl(message) {
+    return `${WHATSAPP_BASE_URL}?text=${encodeURIComponent(message)}`;
+  }
+
+  function buildGenericWhatsAppUrl() {
+    return buildWhatsAppUrl(
+      "Hi Arzé, I want to book a service. / مرحباً أرزة، أريد حجز خدمة."
+    );
+  }
+
   function getCategoryDictionary(categoryId) {
     return I18N[currentLang].categories[categoryId] || I18N[DEFAULT_LANG].categories[categoryId] || {};
   }
 
-  function getServiceDictionary(categoryId, serviceName) {
-    const categoryDictionary = getCategoryDictionary(categoryId);
+  function getCategoryDictionaryForLang(categoryId, lang) {
+    return I18N[lang].categories[categoryId] || I18N[DEFAULT_LANG].categories[categoryId] || {};
+  }
+
+  function getServiceDictionary(categoryId, serviceName, lang = currentLang) {
+    const categoryDictionary = getCategoryDictionaryForLang(categoryId, lang);
     return (categoryDictionary.services && categoryDictionary.services[serviceName]) || {};
+  }
+
+  function getLocalizedServiceName(categoryId, serviceName, lang) {
+    return getServiceDictionary(categoryId, serviceName, lang).name || serviceName;
+  }
+
+  function buildServiceWhatsAppUrl(categoryId, service, currency) {
+    const englishName = getLocalizedServiceName(categoryId, service.name, "en");
+    const arabicName = getLocalizedServiceName(categoryId, service.name, "ar");
+    const price = formatPrice(service.price, currency || "");
+    return buildWhatsAppUrl(
+      `Hi Arzé, I want to book: ${englishName} - ${price} / مرحباً أرزة، أريد حجز: ${arabicName} - ${price}`
+    );
   }
 
   function translateCategory(category) {
@@ -346,6 +491,7 @@
         const serviceDictionary = getServiceDictionary(category.id, service.name);
         return {
           ...service,
+          sourceName: service.name,
           name: serviceDictionary.name || service.name,
           description: serviceDictionary.description || service.description || "",
           note: serviceDictionary.note || service.note || ""
@@ -390,8 +536,9 @@
     });
 
     backBtn.setAttribute("aria-label", t("backAria"));
-    whatsAppBtn.setAttribute("aria-label", t("contactBtnAria"));
-    document.getElementById("callBtn").setAttribute("aria-label", t("callBtnAria"));
+    document.getElementById("stickyWhatsAppBtn").setAttribute("aria-label", t("stickyWhatsAppAria"));
+    document.getElementById("stickyCallBtn").setAttribute("aria-label", t("stickyCallAria"));
+    document.getElementById("stickyWhatsAppBtn").href = buildGenericWhatsAppUrl();
 
     [langEn, langAr].forEach((button) => {
       const isActive = button.dataset.langOption === currentLang;
@@ -409,7 +556,7 @@
       btn.type = "button";
       btn.className = "card";
       btn.dataset.bg = getCategoryBgKey(localized);
-      btn.innerHTML = `<div><h3 class="cardTitle">${localized.name}</h3></div>`;
+      btn.innerHTML = `<div><h3 class="cardTitle">${escapeHtml(localized.name)}</h3></div>`;
       btn.addEventListener("click", () => renderCategory(data, localized.id));
       categoryGrid.appendChild(btn);
     });
@@ -439,31 +586,53 @@
 
       card.style.setProperty("--service-image", `url('${imageUrl}')`);
 
-      const detailsId = `service-details-${categoryId}-${service.name
+      const detailsId = `service-details-${categoryId}-${(service.sourceName || service.name)
         .toLowerCase()
         .replace(/[^\u0621-\u064Aa-z0-9]+/g, "-")
         .replace(/(^-|-$)/g, "")}`;
 
       const badges = [];
       if (service.note) badges.push(service.note);
+      const serviceBookUrl = buildServiceWhatsAppUrl(
+        categoryId,
+        { ...service, name: service.sourceName || service.name },
+        data.currency || ""
+      );
+      const safeServiceName = escapeHtml(service.name);
+      const safePrice = escapeHtml(formatPrice(service.price, data.currency || ""));
+      const safeDuration = escapeHtml(`${service.duration_min} ${t("minutes")}`);
+      const safeDescription = escapeHtml(service.description || "");
+      const safeBookLabel = escapeHtml(t("bookServiceLabel"));
+      const safeViewLabel = escapeHtml(t("viewDescription"));
+      const safeBookAria = escapeHtml(`${t("bookServiceAriaPrefix")} ${service.name}`);
+      const safeImageStyle = escapeHtml(imageUrl);
 
       card.innerHTML = `
-        <div class="serviceTop">
-          <h4 class="serviceName">${service.name}</h4>
-          <div class="serviceMeta">
-            <p class="servicePrice">${formatPrice(service.price, data.currency || "")}</p>
-            <p class="serviceDuration">${service.duration_min} ${t("minutes")}</p>
+        <div class="serviceRow">
+          <div class="serviceThumb" style="background-image: url('${safeImageStyle}')" aria-hidden="true"></div>
+          <div class="serviceInfo">
+            <h4 class="serviceName">${safeServiceName}</h4>
+            <div class="serviceMeta" aria-label="${safePrice}, ${safeDuration}">
+              <span class="servicePrice">${safePrice}</span>
+              <span class="serviceDuration">${safeDuration}</span>
+            </div>
+          </div>
+          <div class="serviceActions">
+            <a class="serviceBookBtn" href="${serviceBookUrl}" target="_blank" rel="noopener" aria-label="${safeBookAria}">
+              ${safeBookLabel}
+            </a>
+            <button type="button" class="serviceToggle" aria-expanded="false" aria-controls="${detailsId}">
+              ${safeViewLabel}
+            </button>
           </div>
         </div>
-        <button type="button" class="serviceToggle" aria-expanded="false" aria-controls="${detailsId}">
-          ${t("viewDescription")}
-        </button>
         <div id="${detailsId}" class="serviceDetails" hidden>
-          <p class="serviceDesc">${service.description || ""}</p>
+          <div class="serviceVisual" style="background-image: url('${safeImageStyle}')" aria-hidden="true"></div>
+          <p class="serviceDesc">${safeDescription}</p>
           ${
             badges.length
               ? `<div class="badgeRow">${badges
-                  .map((badge) => `<span class="badge">${badge}</span>`)
+                  .map((badge) => `<span class="badge">${escapeHtml(badge)}</span>`)
                   .join("")}</div>`
               : ""
           }
@@ -497,10 +666,6 @@
 
       serviceList.appendChild(card);
     });
-
-    whatsAppBtn.href =
-      (data.contact && data.contact.whatsapp) || "https://wa.me/966598256743";
-
     show(viewCategory);
   }
 

@@ -32,7 +32,7 @@ body{
   width: 100%;
   max-width: 520px;
   margin: 0 auto;
-  padding: 26px 18px 44px;
+  padding: 26px 18px 116px;
 }
 
 
@@ -218,11 +218,6 @@ body{
   line-height: 1;
 }
 
-.callBtn{
-  margin: 16px auto 0;
-  display: inline-flex;
-}
-
 /* Category view back button */
 .backWrap{
   display:flex;
@@ -283,113 +278,194 @@ body{
   display:flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 9px;
   padding: 6px 0 14px;
 }
 
 .serviceCard{
-  --service-overlay-start: rgba(22,26,18,.82);
-  --service-overlay-end: rgba(30,35,24,.8);
   position: relative;
-  overflow: hidden;
-  border-radius: var(--r1);
-  aspect-ratio: 1200 / 230;
-  min-height: 132px;
-  background-image:
-    linear-gradient(var(--service-overlay-start), var(--service-overlay-end)),
-    var(--service-image);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border: 1px solid rgba(255,255,255,.24);
+  overflow: clip;
+  border-radius: 16px;
+  background: rgba(255,255,255,.42);
+  border: 1px solid rgba(31,31,31,.10);
+  box-shadow: 0 8px 22px rgba(0,0,0,.055);
   width: min(100%, 460px);
   margin-inline: auto;
-  padding: 14px;
-  transition: aspect-ratio .25s ease, min-height .25s ease;
+  padding: 10px;
+  transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
 }
 
 .serviceCard.serviceCard--active{
-  --service-overlay-start: rgba(50,58,40,.5);
-  --service-overlay-end: rgba(50,58,40,.5);
-  aspect-ratio: 1200 / 450;
-  min-height: 180px;
+  border-color: rgba(107,117,98,.34);
+  box-shadow: 0 12px 28px rgba(56,66,49,.12);
 }
 
-.serviceTop{
-  display:flex;
+.serviceCard.serviceCard--active .serviceRow{
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.serviceCard.serviceCard--active .serviceThumb{
+  display: none;
+}
+
+.serviceCard.serviceCard--active .serviceInfo{
+  display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   justify-content: center;
-  gap: 8px;
+  text-align: center;
+}
+
+.serviceCard.serviceCard--active .serviceName{
+  text-align: center;
+}
+
+.serviceCard.serviceCard--active .serviceMeta{
+  justify-content: center;
+}
+
+.serviceCard:hover{
+  transform: translateY(-1px);
+}
+
+.serviceRow{
+  display: grid;
+  grid-template-columns: 68px minmax(0, 1fr) auto;
+  align-items:center;
+  gap: 12px;
+}
+
+.serviceThumb{
+  width: 68px;
+  aspect-ratio: 1;
+  border-radius: 12px;
+  background-color: rgba(107,117,98,.24);
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.38);
+}
+
+.serviceInfo{
+  min-width: 0;
 }
 
 .serviceName{
   font-weight: 600;
   font-size: 14.5px;
-  margin: 0;
-  color: #fff;
-  text-align: center;
+  margin: 0 0 6px;
+  color: var(--text);
+  text-align: start;
   overflow-wrap: anywhere;
-  text-shadow: 0 1px 2px rgba(0,0,0,.72);
 }
 
 .serviceMeta{
-  text-align: center;
-  width: 100%;
-  flex: 0 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  color: var(--muted);
 }
 
 .servicePrice{
   font-weight: 600;
   font-size: 14.5px;
-  margin: 0;
-  color: #fff;
+  color: var(--olive);
   overflow-wrap: anywhere;
-  text-shadow: 0 1px 2px rgba(0,0,0,.72);
 }
 
 .serviceDuration{
-  margin: 4px 0 0;
   font-size: 12px;
-  color: rgba(255,255,255,.72);
-  text-shadow: 0 1px 2px rgba(0,0,0,.72);
+  color: var(--muted2);
+}
+
+.serviceActions{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 7px;
+  min-width: 72px;
+}
+
+.serviceBookBtn,
+.serviceToggle{
+  min-height: 34px;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  transition: background .16s ease, color .16s ease, border-color .16s ease, transform .16s ease;
+}
+
+.serviceBookBtn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(107,117,98,.34);
+  background: var(--olive);
+  color: #fff;
 }
 
 .serviceToggle{
-  margin-top: 12px;
-  border: 1px solid rgba(255,255,255,.35);
-  background: rgba(0,0,0,.28);
-  color: #fff;
-  border-radius: 999px;
-  padding: 8px 12px;
+  border: 1px solid rgba(107,117,98,.28);
+  background: rgba(255,255,255,.54);
+  color: var(--olive);
   cursor: pointer;
-  font-size: 12px;
-  font-weight: 500;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.serviceBookBtn:hover,
+.serviceToggle:hover{
+  transform: translateY(-1px);
 }
 
 .serviceToggle:hover{
-  background: rgba(0,0,0,.4);
+  background: rgba(255,255,255,.74);
 }
 
 .serviceDetails{
-  margin-top: 8px;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 14px;
+  background: rgba(107,117,98,.10);
+  animation: detailsReveal .18s ease both;
+}
+
+.serviceDetails[hidden]{
+  display: none;
+}
+
+.serviceVisual{
+  min-height: 78px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.35);
 }
 
 .serviceDesc{
   margin: 0;
-  color: rgba(255,255,255,.84);
+  color: var(--muted);
   font-size: 13px;
   line-height: 1.45;
   overflow-wrap: anywhere;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  text-align: center;
+}
+
+@keyframes detailsReveal{
+  from{
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Optional badge (per nail etc.) */
@@ -404,9 +480,9 @@ body{
 .badge{
   font-size: 11px;
   line-height: 1.3;
-  color: rgba(255,255,255,.92);
-  border: 1px solid rgba(255,255,255,.24);
-  background: rgba(0,0,0,.25);
+  color: var(--olive);
+  border: 1px solid rgba(107,117,98,.24);
+  background: rgba(255,255,255,.42);
   padding: 5px 9px;
   border-radius: 999px;
   max-width: min(100%, 220px);
@@ -429,60 +505,250 @@ body{
   .serviceCard{
     width: 100%;
   }
+
+  .serviceRow{
+    grid-template-columns: 58px minmax(0, 1fr);
+  }
+
+  .serviceThumb{
+    width: 58px;
+  }
+
+  .serviceActions{
+    grid-column: 1 / -1;
+    flex-direction: row;
+  }
+
+  .serviceBookBtn,
+  .serviceToggle{
+    flex: 1 1 0;
+  }
+
+  .serviceDetails{
+    grid-template-columns: 1fr;
+  }
+
+  .serviceCard.serviceCard--active .serviceRow{
+    grid-template-columns: 1fr;
+  }
+
+  .serviceCard.serviceCard--active .serviceActions{
+    grid-column: 1 / -1;
+  }
+
+  .serviceVisual{
+    min-height: 120px;
+  }
 }
 
-/* CTA */
-.ctaBlock{
-  margin-top: 14px;
-  padding-top: 12px;
+/* About / SEO content */
+.aboutSection{
+  margin-top: 28px;
+  padding: 24px 4px 6px;
   border-top: 1px solid var(--line);
-  display:flex;
-  flex-direction: column;
+  text-align: center;
+}
+
+.aboutEyebrow{
+  margin: 0 0 8px;
+  color: var(--olive);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .32px;
+  text-transform: uppercase;
+}
+
+.aboutTitle{
+  margin: 0 auto 12px;
+  max-width: 13ch;
+  font-family: "Playfair Display", serif;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 1.18;
+}
+
+.aboutText{
+  margin: 0 auto 12px;
+  max-width: 54ch;
+  color: var(--muted);
+  font-size: 13.5px;
+  line-height: 1.62;
+}
+
+.aboutKeywords{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin: 16px auto 0;
+  max-width: 420px;
+  color: rgba(31,31,31,.74);
+  font-size: 12.5px;
+  font-weight: 600;
+}
+
+.aboutKeyword{
+  display: inline-flex;
   align-items: center;
   gap: 8px;
 }
 
-.ctaBtn{
-  width: 100%;
-  max-width: 420px;
-  display:inline-flex;
+.aboutKeyword:not(:last-child)::after{
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(107,117,98,.58);
+}
+
+.trustSection,
+.faqSection{
+  margin-top: 28px;
+  padding: 24px 4px 6px;
+  border-top: 1px solid var(--line);
+  text-align: center;
+}
+
+.trustSteps{
+  display: grid;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.trustStep{
+  padding: 16px 14px;
+  border: 1px solid rgba(31,31,31,.10);
+  border-radius: 16px;
+  background: rgba(255,255,255,.34);
+  box-shadow: 0 8px 22px rgba(0,0,0,.045);
+}
+
+.trustStepNumber{
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  padding: 14px 16px;
-  border-radius: 16px;
-  background: var(--olive);
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  letter-spacing: .2px;
-  box-shadow:
-    0 10px 26px rgba(56,66,49,.22),
-    inset 0 1px 0 rgba(255,255,255,.34);
-}
-
-.ctaBtn:hover{ filter: brightness(.98); }
-.ctaBtn:active{ transform: scale(.995); }
-
-.ctaBtnLabel{
-  line-height: 1;
-}
-
-.ctaBtnIcon{
-  display: grid;
-  place-items: center;
-  width: 28px;
-  height: 28px;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 8px;
   border-radius: 999px;
-  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.44), rgba(255,255,255,.08));
-  border: 1px solid rgba(255,255,255,.48);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.5);
+  color: var(--olive);
+  border: 1px solid rgba(107,117,98,.28);
+  background: rgba(255,255,255,.42);
+  font-size: 12px;
+  font-weight: 700;
 }
 
-.ctaBtnIcon svg{
-  width: 15px;
-  height: 15px;
-  fill: #fff;
+.trustStepTitle{
+  margin: 0 0 6px;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.trustStepText{
+  margin: 0 auto;
+  max-width: 42ch;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.faqList{
+  display: grid;
+  gap: 9px;
+  margin: 16px auto 0;
+  width: min(100%, 460px);
+}
+
+.faqItem{
+  border: 1px solid rgba(31,31,31,.10);
+  border-radius: 16px;
+  background: rgba(255,255,255,.38);
+  text-align: start;
+  overflow: hidden;
+}
+
+.faqQuestion{
+  cursor: pointer;
+  padding: 15px 16px;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.faqQuestion::marker{
+  color: var(--olive);
+}
+
+.faqAnswer{
+  margin: 0;
+  padding: 0 16px 16px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.58;
+}
+
+.stickyBooking{
+  position: fixed;
+  z-index: 20;
+  left: 50%;
+  bottom: max(14px, env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, .85fr);
+  gap: 9px;
+  width: min(calc(100% - 28px), 430px);
+  padding: 8px;
+  border: 1px solid rgba(31,31,31,.12);
+  border-radius: 20px;
+  background: rgba(242,229,213,.88);
+  box-shadow: 0 18px 42px rgba(31,31,31,.18);
+  backdrop-filter: blur(12px);
+}
+
+.stickyBookingBtn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 13px 14px;
+  border: 1px solid rgba(107,117,98,.28);
+  border-radius: 14px;
+  color: var(--olive);
+  background: rgba(255,255,255,.58);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1;
+  transition: transform .16s ease, background .16s ease, box-shadow .16s ease;
+}
+
+.stickyBookingBtn--primary{
+  color: #fff;
+  background: var(--olive);
+  box-shadow: 0 10px 24px rgba(56,66,49,.20);
+}
+
+.stickyBookingBtn:hover{
+  transform: translateY(-1px);
+}
+
+.stickyBookingIcon{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 auto;
+  opacity: .9;
+}
+
+.stickyBookingIcon svg{
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
 }
 
 /* Accessibility / small refinements */
@@ -571,7 +837,9 @@ html[dir="rtl"] .serviceToggle,
 html[dir="rtl"] .titleSubline,
 html[dir="rtl"] .landingInfo,
 html[dir="rtl"] .catHeader,
-html[dir="rtl"] .socialFooter{
+html[dir="rtl"] .socialFooter,
+html[dir="rtl"] .trustSection,
+html[dir="rtl"] .faqSection{
   text-align: center;
 }
 
