@@ -449,8 +449,21 @@
 
   function buildGenericWhatsAppUrl() {
     return buildWhatsAppUrl(
-      "Hi Arzé, I want to book a service. / مرحباً أرزة، أريد حجز خدمة."
+      "Hi Arzé, I want to book a service. Source: organic website. / مرحباً أرزة، أريد حجز خدمة. المصدر: الموقع العضوي."
     );
+  }
+
+  function trackEvent(eventName, details = {}) {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: eventName,
+      category: details.category || "",
+      service: details.service || "",
+      platform: details.platform || "",
+      lang: details.lang || currentLang,
+      page: details.page || "home",
+      url: details.url || ""
+    });
   }
 
   function getCategoryDictionary(categoryId) {
@@ -618,7 +631,7 @@
             </div>
           </div>
           <div class="serviceActions">
-            <a class="serviceBookBtn" href="${serviceBookUrl}" target="_blank" rel="noopener" aria-label="${safeBookAria}">
+            <a class="serviceBookBtn" href="${serviceBookUrl}" target="_blank" rel="noopener" aria-label="${safeBookAria}" data-track="whatsapp_click" data-category="${escapeHtml(categoryId)}" data-service="${escapeHtml(service.sourceName || service.name)}">
               ${safeBookLabel}
             </a>
             <button type="button" class="serviceToggle" aria-expanded="false" aria-controls="${detailsId}">
@@ -645,6 +658,11 @@
         const isOpen = toggleBtn.getAttribute("aria-expanded") === "true";
 
         if (!isOpen) {
+          trackEvent("service_detail_open", {
+            category: categoryId,
+            service: service.sourceName || service.name
+          });
+
           serviceList.querySelectorAll(".serviceCard").forEach((otherCard) => {
             if (otherCard === card) return;
             otherCard.classList.remove("serviceCard--active");

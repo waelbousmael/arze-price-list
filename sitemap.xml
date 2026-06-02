@@ -1,9 +1,742 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://wbstudio.xyz/arze-price-list/</loc>
-    <lastmod>2026-05-22</lastmod>
+
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/arze-spa-price-list-og.jpg</image:loc>
+      <image:title>Arzé Spa Jeddah home spa price list</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/home-spa-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/home-spa-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/spa-home-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/home-spa-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/arze-spa-price-list-og.jpg</image:loc>
+      <image:title>Premium home spa services in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/spa-home-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/home-spa-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/spa-home-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/home-spa-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/arze-spa-price-list-og.jpg</image:loc>
+      <image:title>خدمات سبا منزلية راقية في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/nails-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/nails-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/nails-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/nails-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/russian-manicure.jpg</image:loc>
+      <image:title>Nail services with a clean, polished finish</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/nails-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/nails-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/nails-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/nails-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/russian-manicure.jpg</image:loc>
+      <image:title>خدمات أظافر بنتيجة نظيفة وراقية</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/home-massage-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/home-massage-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/massage-home-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/home-massage-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/massage/relaxing-massage.jpg</image:loc>
+      <image:title>Relaxing massage rituals at home</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/massage-home-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/home-massage-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/massage-home-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/home-massage-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/massage/relaxing-massage.jpg</image:loc>
+      <image:title>جلسات مساج واسترخاء في المنزل</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/brows-lashes-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/brows-lashes-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/brows-lashes-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/brows-lashes-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/brows/brow-lamination.jpg</image:loc>
+      <image:title>Subtle definition for brows and lashes</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/brows-lashes-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/brows-lashes-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/brows-lashes-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/brows-lashes-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/brows/brow-lamination.jpg</image:loc>
+      <image:title>تحديد ناعم للحواجب والرموش</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/russian-manicure-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/russian-manicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/russian-manicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/russian-manicure-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/russian-manicure.jpg</image:loc>
+      <image:title>Russian manicure for an ultra-clean contour</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/russian-manicure-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/russian-manicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/russian-manicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/russian-manicure-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/russian-manicure.jpg</image:loc>
+      <image:title>مانيكير روسي لتحديد نظيف ودقيق</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/gel-extensions-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/gel-extensions-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/gel-extensions-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/gel-extensions-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/gel-extension.jpg</image:loc>
+      <image:title>Sculpted gel extensions with refined length</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/gel-extensions-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/gel-extensions-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/gel-extensions-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/gel-extensions-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/gel-extension.jpg</image:loc>
+      <image:title>إطالة جل منحوتة بطول أنيق</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/relaxing-massage-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/relaxing-massage-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/relaxing-massage-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/relaxing-massage-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/massage/relaxing-massage.jpg</image:loc>
+      <image:title>A 40-minute reset for body and mood</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/relaxing-massage-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/relaxing-massage-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/relaxing-massage-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/relaxing-massage-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/massage/relaxing-massage.jpg</image:loc>
+      <image:title>استرخاء لمدة 40 دقيقة للجسم والمزاج</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/brow-lamination-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/brow-lamination-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/brow-lamination-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/brow-lamination-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/brows/brow-lamination.jpg</image:loc>
+      <image:title>Lifted, balanced brows with clean structure</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/brow-lamination-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/brow-lamination-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/brow-lamination-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/brow-lamination-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/brows/brow-lamination.jpg</image:loc>
+      <image:title>حواجب مرفوعة ومتوازنة ببنية نظيفة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/russian-vs-classic-manicure-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/russian-vs-classic-manicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/russian-vs-classic-manicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/russian-vs-classic-manicure-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/russian-manicure.jpg</image:loc>
+      <image:title>Russian manicure vs classic manicure</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/russian-vs-classic-manicure-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/russian-vs-classic-manicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/russian-vs-classic-manicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/russian-vs-classic-manicure-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/russian-manicure.jpg</image:loc>
+      <image:title>المانيكير الروسي مقارنة بالكلاسيكي</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/how-long-gel-extensions-last-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/how-long-gel-extensions-last-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/how-long-gel-extensions-last-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/how-long-gel-extensions-last-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/gel-extension.jpg</image:loc>
+      <image:title>How long do gel extensions last</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/how-long-gel-extensions-last-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/how-long-gel-extensions-last-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/how-long-gel-extensions-last-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/how-long-gel-extensions-last-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/gel-extension.jpg</image:loc>
+      <image:title>كم تدوم إطالة الجل</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/best-massage-for-stress-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/best-massage-for-stress-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/best-massage-for-stress-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/best-massage-for-stress-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/massage/relaxing-massage.jpg</image:loc>
+      <image:title>Best massage for stress at home in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/best-massage-for-stress-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/best-massage-for-stress-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/best-massage-for-stress-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/best-massage-for-stress-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/massage/relaxing-massage.jpg</image:loc>
+      <image:title>أفضل مساج للتوتر في المنزل بجدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/brow-lamination-aftercare-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/brow-lamination-aftercare-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/brow-lamination-aftercare-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/brow-lamination-aftercare-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/brows/brow-lamination.jpg</image:loc>
+      <image:title>Brow lamination aftercare</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/brow-lamination-aftercare-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/brow-lamination-aftercare-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/brow-lamination-aftercare-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/brow-lamination-aftercare-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/brows/brow-lamination.jpg</image:loc>
+      <image:title>العناية بعد لامينيشن الحواجب</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/classic-manicure-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/classic-manicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/classic-manicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/classic-manicure-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/classic-manicure.jpg</image:loc>
+      <image:title>Classic Manicure in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/classic-manicure-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/classic-manicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/classic-manicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/classic-manicure-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/classic-manicure.jpg</image:loc>
+      <image:title>مانيكير كلاسيكي في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/classic-pedicure-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/classic-pedicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/classic-pedicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/classic-pedicure-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/classic-pedicure.jpg</image:loc>
+      <image:title>Classic Pedicure in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/classic-pedicure-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/classic-pedicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/classic-pedicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/classic-pedicure-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/classic-pedicure.jpg</image:loc>
+      <image:title>باديكير كلاسيكي في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/russian-pedicure-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/russian-pedicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/russian-pedicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/russian-pedicure-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/russian-pedicure.jpg</image:loc>
+      <image:title>Russian Pedicure in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/russian-pedicure-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/russian-pedicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/russian-pedicure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/russian-pedicure-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/russian-pedicure.jpg</image:loc>
+      <image:title>باديكير روسي في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/gel-color-finish-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/gel-color-finish-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/gel-color-finish-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/gel-color-finish-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/gel-color-finish.jpg</image:loc>
+      <image:title>Gel Color Finish in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/gel-color-finish-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/gel-color-finish-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/gel-color-finish-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/gel-color-finish-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/gel-color-finish.jpg</image:loc>
+      <image:title>طلاء جل في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/softgel-structure-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/softgel-structure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/softgel-structure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/softgel-structure-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/softgel-structure.jpg</image:loc>
+      <image:title>Softgel Structure in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/softgel-structure-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/softgel-structure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/softgel-structure-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/softgel-structure-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/softgel-structure.jpg</image:loc>
+      <image:title>تقوية سوفت جل في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/refill-maintenance-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/refill-maintenance-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/refill-maintenance-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/refill-maintenance-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/refill-maintenance.jpg</image:loc>
+      <image:title>Refill Maintenance in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/refill-maintenance-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/refill-maintenance-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/refill-maintenance-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/refill-maintenance-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/refill-maintenance.jpg</image:loc>
+      <image:title>إعادة تعبئة وصيانة في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/rubber-base-reinforcement-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/rubber-base-reinforcement-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/rubber-base-reinforcement-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/rubber-base-reinforcement-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/rubber-base-reinforcement.jpg</image:loc>
+      <image:title>Rubber Base Reinforcement in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/rubber-base-reinforcement-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/rubber-base-reinforcement-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/rubber-base-reinforcement-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/rubber-base-reinforcement-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/rubber-base-reinforcement.jpg</image:loc>
+      <image:title>تقوية بقاعدة مطاطية في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/signature-mani-pedi-experience-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/signature-mani-pedi-experience-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/signature-mani-pedi-experience-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/signature-mani-pedi-experience-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/signature-mani-pedi-experience.jpg</image:loc>
+      <image:title>Signature Mani-Pedi Experience in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/signature-mani-pedi-experience-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/signature-mani-pedi-experience-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/signature-mani-pedi-experience-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/signature-mani-pedi-experience-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/signature-mani-pedi-experience.jpg</image:loc>
+      <image:title>تجربة أرزة المميزة لليدين والقدمين في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/nail-art-per-nail-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/nail-art-per-nail-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/nail-art-per-nail-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/nail-art-per-nail-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/nail-art.jpg</image:loc>
+      <image:title>Nail Art (Per Nail) in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/nail-art-per-nail-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/nail-art-per-nail-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/nail-art-per-nail-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/nail-art-per-nail-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/nails/nail-art.jpg</image:loc>
+      <image:title>فن الأظافر في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/white-wood-therapy-with-cedar-oil-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/white-wood-therapy-with-cedar-oil-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/white-wood-therapy-with-cedar-oil-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/white-wood-therapy-with-cedar-oil-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/massage/white-wood-therapy-with-cedar-oil.jpg</image:loc>
+      <image:title>White Wood Therapy with Cedar Oil in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/white-wood-therapy-with-cedar-oil-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/white-wood-therapy-with-cedar-oil-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/white-wood-therapy-with-cedar-oil-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/white-wood-therapy-with-cedar-oil-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/massage/white-wood-therapy-with-cedar-oil.jpg</image:loc>
+      <image:title>علاج الخشب الأبيض بزيت الأرز في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/hot-stone-ritual-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/hot-stone-ritual-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/hot-stone-ritual-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/hot-stone-ritual-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/massage/hot-stone-ritual.jpg</image:loc>
+      <image:title>Hot Stone Ritual in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/hot-stone-ritual-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/hot-stone-ritual-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/hot-stone-ritual-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/hot-stone-ritual-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/massage/hot-stone-ritual.jpg</image:loc>
+      <image:title>طقس الأحجار الساخنة في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/thai-energy-flow-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/thai-energy-flow-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/thai-energy-flow-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/thai-energy-flow-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/massage/thai-energy-flow.jpg</image:loc>
+      <image:title>Thai Energy Flow in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/thai-energy-flow-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/thai-energy-flow-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/thai-energy-flow-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/thai-energy-flow-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/massage/thai-energy-flow.jpg</image:loc>
+      <image:title>تدفق الطاقة التايلندي في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/lash-lift-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/lash-lift-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/lash-lift-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/lash-lift-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/brows/lash-lift.jpg</image:loc>
+      <image:title>Lash Lift in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/lash-lift-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/lash-lift-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/lash-lift-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/lash-lift-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/brows/lash-lift.jpg</image:loc>
+      <image:title>رفع الرموش في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/eye-refinement-package-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/eye-refinement-package-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/eye-refinement-package-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/eye-refinement-package-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/brows/eye-refinement-package.jpg</image:loc>
+      <image:title>Eye Refinement Package in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/eye-refinement-package-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/eye-refinement-package-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/eye-refinement-package-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/eye-refinement-package-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/brows/eye-refinement-package.jpg</image:loc>
+      <image:title>باقة إبراز العين في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/precision-threading-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/precision-threading-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/precision-threading-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/precision-threading-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/brows/precision-threading.jpg</image:loc>
+      <image:title>Precision Threading in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/precision-threading-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/precision-threading-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/precision-threading-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/precision-threading-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/brows/precision-threading.jpg</image:loc>
+      <image:title>تنظيف بالخيط بدقة في جدة</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/en/services-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/services-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/services-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/services-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/arze-spa-price-list-og.jpg</image:loc>
+      <image:title>Arzé Spa services in Jeddah</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wbstudio.xyz/arze-price-list/ar/services-jeddah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wbstudio.xyz/arze-price-list/en/services-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://wbstudio.xyz/arze-price-list/ar/services-jeddah/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wbstudio.xyz/arze-price-list/en/services-jeddah/" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://wbstudio.xyz/arze-price-list/assets/images/arze-spa-price-list-og.jpg</image:loc>
+      <image:title>خدمات أرزة سبا في جدة</image:title>
+    </image:image>
   </url>
 </urlset>

@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build:seo": "node scripts/build-seo-pages.js",
+    "verify:seo": "node scripts/verify-seo-pages.js",
+    "check:links": "node scripts/check-internal-links.js",
+    "check:discovery": "node scripts/check-discovery-manifest.js",
+    "check:images": "node scripts/check-image-previews.js",
+    "check:quality": "node scripts/check-page-quality.js",
+    "check:conversion": "node scripts/check-conversion-paths.js",
+    "check:crawl": "node scripts/check-crawl-reachability.js",
+    "qa:seo": "npm run build:seo && npm run check:discovery && npm run check:images && npm run check:links && npm run check:quality && npm run check:conversion && npm run check:crawl && npm run verify:seo"
+  }
+}

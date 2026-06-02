@@ -1,0 +1,336 @@
+.seoPage {
+  background: #f8f6f1;
+  color: #241b18;
+  min-height: 100vh;
+}
+
+.seoTopbar,
+.seoPage main,
+.seoFooter {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.seoTopbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 24px 0 18px;
+}
+
+.seoLogoLink {
+  display: inline-flex;
+  align-items: center;
+}
+
+.seoLogoLink img {
+  width: 92px;
+  height: auto;
+}
+
+.seoNav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.seoNav a,
+.seoFooter a {
+  color: #4e3a34;
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.seoHero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.78fr);
+  align-items: center;
+  gap: 48px;
+  padding: 34px 0 26px;
+}
+
+.seoBreadcrumb {
+  align-items: center;
+  color: #7a675f;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.86rem;
+  font-weight: 650;
+  gap: 8px;
+  padding: 14px 0 0;
+}
+
+.seoBreadcrumb a {
+  color: #4e3a34;
+  text-decoration: none;
+}
+
+.seoBreadcrumb span[aria-current="page"] {
+  color: #8a6b5c;
+}
+
+.seoKicker {
+  color: #8a6b5c;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: 0 0 12px;
+  text-transform: uppercase;
+}
+
+[dir="rtl"] .seoKicker {
+  text-transform: none;
+}
+
+.seoHero h1 {
+  font-family: "Playfair Display", "Noto Naskh Arabic", serif;
+  font-size: clamp(2.45rem, 5vw, 5.4rem);
+  font-weight: 500;
+  line-height: 0.98;
+  letter-spacing: 0;
+  margin: 0;
+  max-width: 780px;
+}
+
+[dir="rtl"] .seoHero h1 {
+  font-family: "Noto Naskh Arabic", "Playfair Display", serif;
+  line-height: 1.18;
+}
+
+.seoIntro {
+  color: #5c4b45;
+  font-size: 1.08rem;
+  line-height: 1.75;
+  margin: 22px 0 0;
+  max-width: 680px;
+}
+
+.seoCtaRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.seoCta {
+  align-items: center;
+  border: 1px solid rgba(78, 58, 52, 0.22);
+  border-radius: 8px;
+  color: #2b211d;
+  display: inline-flex;
+  font-size: 0.95rem;
+  font-weight: 700;
+  min-height: 46px;
+  padding: 0 18px;
+  text-decoration: none;
+}
+
+.seoCta--primary {
+  background: #3d2d28;
+  border-color: #3d2d28;
+  color: #fffaf3;
+}
+
+.seoHeroImage {
+  aspect-ratio: 4 / 5;
+  border-radius: 8px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.seoHeroImage img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.seoHighlights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  padding: 24px 0 16px;
+}
+
+.seoHighlights span {
+  background: #fffdf8;
+  border: 1px solid rgba(78, 58, 52, 0.12);
+  border-radius: 8px;
+  color: #46332e;
+  font-size: 0.95rem;
+  font-weight: 650;
+  line-height: 1.45;
+  min-height: 70px;
+  padding: 16px;
+}
+
+.seoContent {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  padding: 44px 0 22px;
+}
+
+.seoContent article,
+.seoFaq details {
+  background: #fffdf8;
+  border: 1px solid rgba(78, 58, 52, 0.12);
+  border-radius: 8px;
+  padding: 22px;
+}
+
+.seoContent h2,
+.seoFaq h2,
+.seoRelated h2 {
+  font-family: "Playfair Display", "Noto Naskh Arabic", serif;
+  font-size: 1.55rem;
+  font-weight: 500;
+  line-height: 1.18;
+  margin: 0 0 12px;
+}
+
+[dir="rtl"] .seoContent h2,
+[dir="rtl"] .seoFaq h2,
+[dir="rtl"] .seoRelated h2 {
+  font-family: "Noto Naskh Arabic", "Playfair Display", serif;
+}
+
+.seoContent p,
+.seoFaq p {
+  color: #5d4e49;
+  font-size: 0.98rem;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.seoFaq,
+.seoRelated {
+  padding: 38px 0 10px;
+}
+
+.seoFaq h2,
+.seoRelated h2 {
+  font-size: 2rem;
+  margin-bottom: 18px;
+}
+
+.seoFaq {
+  display: grid;
+  gap: 12px;
+}
+
+.seoFaq summary {
+  color: #332621;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.seoFaq details p {
+  margin-top: 12px;
+}
+
+.seoRelatedGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.seoRelatedLink {
+  background: #ebe3d7;
+  border-radius: 8px;
+  color: #3d2d28;
+  font-size: 0.92rem;
+  font-weight: 700;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+.seoHubGroups {
+  display: grid;
+  gap: 34px;
+  padding: 36px 0 8px;
+}
+
+.seoHubGroup h2 {
+  font-family: "Playfair Display", "Noto Naskh Arabic", serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.18;
+  margin: 0 0 14px;
+}
+
+.seoHubGrid .seoRelatedLink {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.seoRelatedLink small {
+  color: #6a554d;
+  font-size: 0.78rem;
+  font-weight: 650;
+}
+
+.seoFooter {
+  align-items: center;
+  border-top: 1px solid rgba(78, 58, 52, 0.14);
+  color: #665550;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 56px;
+  padding: 24px 0 36px;
+}
+
+.seoFooter p {
+  margin: 0;
+}
+
+.seoFooter div {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 820px) {
+  .seoTopbar,
+  .seoPage main,
+  .seoFooter {
+    width: min(100% - 24px, 680px);
+  }
+
+  .seoHero,
+  .seoHighlights,
+  .seoContent {
+    grid-template-columns: 1fr;
+  }
+
+  .seoHero {
+    gap: 26px;
+    padding-top: 18px;
+  }
+
+  .seoHero h1 {
+    font-size: clamp(2.3rem, 12vw, 4rem);
+  }
+
+  .seoHeroImage {
+    aspect-ratio: 16 / 11;
+  }
+
+  .seoCta {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .seoFooter {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
